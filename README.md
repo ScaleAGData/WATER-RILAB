@@ -36,10 +36,10 @@ WATER-RILAB/
 │   ├── SpaceGrotesk-VariableFont_wght.ttf
 │   └── vri_logo.drawio.png
 │
-├── config.py                  # Application paths and configuration variables
-├── environment_cache.py       # Environmental cache access and processing logic
-├── main.py                    # Main Streamlit application entry point
-└── requirements.txt           # Python dependencies
+├── config.py                  -> Application paths and configuration variables
+├── environment_cache.py       -> Environmental cache access and processing logic
+├── main.py                    -> Main Streamlit application entry point
+└── requirements.txt           -> Python dependencies
 ```
 
 ## Requirements & Installation
@@ -69,7 +69,7 @@ http://127.0.0.1:8501
 General application paths and setting are already defined in 
 
 
-## Dashboard Pages and files
+## Dashboard Pages & files
 
 ### Streamlit pages:
 - `main.py` is the main entry point of the dashboard. It displays data collected from the sensors and retrieved from the database, and provides a soil water deficit assessment under the **Soil moisture** tab.
