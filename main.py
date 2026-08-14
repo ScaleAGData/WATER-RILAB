@@ -2036,7 +2036,7 @@ def section_last_update(sensor_name, sensor_type):
         st.markdown(
             f"""
             :gray-badge[:material/nest_remote_comfort_sensor: Sensor: **{sensor_name}**, Sensor type: **{sensor_type}**]
-            :green-badge[:material/database: DB Snapshot: **{last_update.strftime('%Y-%m-%d at %H:%M')}**]"""
+            :blue-badge[:material/database: DB Snapshot: **{last_update.strftime('%Y-%m-%d at %H:%M')}**]"""
         )
     else:
         st.markdown(":gray-badge[:material/nest_remote_comfort_sensor: Sensor: **Unknown**, sensor type: **Unknown**] :gray-badge[:material/database: Snapshot date: **Unknown**]")
@@ -2405,9 +2405,12 @@ img_base64 = img_to_base64("static/favicon.ico")
 st.markdown(
     f"""
     <h1 style="display:flex; align-items:center; gap:10px;">
-        <img src="data:static/png;base64,{img_base64}" width="40">
-        IES WeatherLink Dashboard 🌦️
+        Water-RILab Dashboard 🌦️
     </h1>
+    <h5style="display:flex; align-items:center; gap:10px;>
+        by Institute for Environmental Solutions
+        <img src="data:static/png;base64,{img_base64}" width="15">
+    </h5>
     """,
     unsafe_allow_html=True
 )
