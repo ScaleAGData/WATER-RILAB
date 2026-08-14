@@ -1,0 +1,27 @@
+[server]
+enableStaticServing = true
+headless = true
+address = "127.0.0.1"
+port = 8501
+
+[[theme.fontFaces]]
+url = "app/static/SpaceGrotesk-VariableFont_wght.ttf"
+family = "Space-Grotesk"
+
+
+[theme]
+base = "light"
+
+primaryColor = "#5586f3"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#dadada00"
+showSidebarBorder = true
+textColor = "#000000"
+font = "Space-Grotesk"
+
+
+
+showWidgetBorder = true
+borderColor = "#8f8c8c"
+dataframeBorderColor = "#3d3a2a"
+
