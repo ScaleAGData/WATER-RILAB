@@ -91,7 +91,7 @@ General application paths and setting are already defined in
 The main WeatherLink database and its corresponding schema are located at:
 
 ```text
-DB/WeatherLink_DB_Main_2026_08_03.db
+DB/WeatherLink_DB_Main_2026_10_13.db
 DB/WeatherLink_DB_Main_schema.sql
 ```
 >**Note**: The schema file is provided for reference and to help understand the database structure. It is not intended to be executed.
