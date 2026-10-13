@@ -5,7 +5,7 @@ VRI_ICON = "static/favicon.ico"
 HORIZONTAL_VRI_ICON = "static/vri_logo.drawio.png"
 
 # DB_DIR = "DB/WeatherLink_DB_Main.db"
-DB_DIR = "DB/WeatherLink_DB_Main_2026_08_03.db"
+DB_DIR = "DB/WeatherLink_DB_Main_2026_10_13.db"
 BACKUP_DB_DIR = "Backup/"
 LATVIA_TZ = timezone(timedelta(hours=3))
 
