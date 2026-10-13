@@ -19,7 +19,7 @@ WATER-RILAB/
 │   │       └── ...
 │   │
 │	├── WeatherLink_DB_Main_schema.sql      -> DB schema, not meant for execution
-│   ├── WeatherLink_DB_Main_2026_08_03.db   -> Main WeatherLink station database
+│   ├── WeatherLink_DB_Main_2026_10_13.db   -> Main WeatherLink station database
 │   └── environment_map_cache.db            -> Precomputed data cache
 │
 ├── other/                          -> Additional code not used directly
